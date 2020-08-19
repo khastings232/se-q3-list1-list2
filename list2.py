@@ -28,8 +28,19 @@ __author__ = "???"
 
 
 def remove_adjacent(nums):
-    # your code here
+    newNums= []
+    
+    for x in range(0, len(nums)):
+        if x == 0:
+            if nums[x] == nums[x + 1]
+                
+        else:
+
     return
+
+
+
+
 
 
 # E. zip_merge
@@ -43,8 +54,10 @@ def remove_adjacent(nums):
 
 
 def zip_merge(list1, list2):
-    # your code here
-    return
+    newList = []
+    for x in range(0, len(list1)):
+        newList.append(list1[x] + list2[x])
+    return newList
 
 
 # F. empty_filter
